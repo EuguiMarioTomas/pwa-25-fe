@@ -6,9 +6,12 @@ import PostsPage from '../pages/Posts/Posts/PostsPage';
 import CreatePostPage from '../pages/Posts/CreatePost/CreatePostPage';
 import EditPostPage from '../pages/Posts/EditPosts/EditPostPage';
 
+import Navbar from '../components/NavBar/NavBar';
+
 function Router(){
     return(
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path='/register' element={<RegisterPage />} />
         <Route path='/users' element={<UsersPage />} />
