@@ -1,0 +1,37 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to left, #26ae91, #009929);
+}
+.usersInfo{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.usersCard{
+  background-color: #006150;
+  border: 1px solid #00800c;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.cardTitle{
+  font-size: 1.25rem;
+  text-decoration: underline;
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+.cardText{
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+.cardFooter{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
