@@ -15,7 +15,6 @@ function Router(){
         <Route path='/posts' element={<PostsPage />} />
         <Route path='/posts/createPost' element={<CreatePostPage />} />
         <Route path='/posts/editPost/:id' element={<EditPostPage />} />
-        /**Agregar mas rutas si es necesario*/
       </Routes>
     </BrowserRouter>
   )
