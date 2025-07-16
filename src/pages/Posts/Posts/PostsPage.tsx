@@ -66,7 +66,7 @@ const PostsPage = () => {
   };
   
   return(
-    <div className={styles.container}>
+    <div className='container'>
       <h1>Posts</h1>
 
       <div className={styles.crearPost}>

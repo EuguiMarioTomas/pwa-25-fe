@@ -36,7 +36,7 @@ const EditPostPage = () =>{
   };
 
   return(
-    <div className={style.container}>
+    <div className='container'>
       <h1>Editar Post</h1>
       <form onSubmit = {handleSubmit} className={style.formEditPost}>
         <div>

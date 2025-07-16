@@ -26,7 +26,7 @@ const CreatePostPage = () => {
     }
   };
   return(
-    <div className={style.container}>
+    <div className='container'>
       <h1>Crear Nuevo Post</h1>
       <form onSubmit={handleSubmit} className={style.formCreatePost}>
         <div>

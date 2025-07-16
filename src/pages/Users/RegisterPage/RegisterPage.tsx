@@ -49,7 +49,7 @@ const RegisterForm = () =>{
     }
   };
   return(
-    <div className={styles.container}>
+    <div className='container'>
       <div className={styles.registerForm}>
         <h1>Registro</h1>
         <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>

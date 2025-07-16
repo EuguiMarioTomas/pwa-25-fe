@@ -41,7 +41,7 @@ const UsersPage = () =>{
   };
 
   return(
-    <div className={styles.container}>
+    <div className='container'>
       <h1>Usuarios</h1>
       <div className={styles.usersInfo}>
         {users.map((user)=>(
