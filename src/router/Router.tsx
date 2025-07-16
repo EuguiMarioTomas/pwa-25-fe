@@ -13,6 +13,7 @@ function Router(){
     <BrowserRouter>
       <Navbar />
       <Routes>
+        <Route path='/' element={<RegisterPage />} />
         <Route path='/register' element={<RegisterPage />} />
         <Route path='/users' element={<UsersPage />} />
         <Route path='/posts' element={<PostsPage />} />
