@@ -10,7 +10,7 @@ const Navbar = () =>{
         <div className={style.navbarNav}>
           <ul className={style.navbarNavList}>
             <li className={style.navbarItem}><Link className={style.navbarLink} to='/posts'>Posts</Link></li>
-            <li className={style.navbarItem}><Link className={style.navbarLink}to='/users'>Usuarios</Link></li>
+            <li className={style.navbarItem}><Link className={style.navbarLink} to='/users'>Usuarios</Link></li>
           </ul>
         </div>
       </div>
