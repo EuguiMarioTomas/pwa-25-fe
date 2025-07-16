@@ -1,3 +1,31 @@
+/**
+ * Lista de paquetes necesarios para el correcto funcionamiento de este programa:
+ * 
+ * - [npm]: npm i.
+ * - [axios]: npm i axios.
+ * - [joi]: npm i joi.
+ * - [@hookform/resolvers]: npm i @hookform/resolvers.
+ * - [React hook form]: npm i react-hook-form.
+ * - [React router]: npm i react-router react-router-dom.
+ *  
+ *
+ * Asegúrate de instalar todos estos paquetes antes de ejecutar el programa.
+ *
+ *
+ * - [Para correr el programa utiliza] npm run dev.
+ * - [url] http://localhost:5001/
+ *
+ *
+ * - [Repositorio del BackEnd]: https://github.com/EuguiMarioTomas/pwa-25-be.git
+ */
+
+
+
+
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
